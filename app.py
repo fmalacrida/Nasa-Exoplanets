@@ -6,10 +6,10 @@ from PIL import Image
 # loading the trained model and images
 model = joblib.load('gradient_boosting_model.pkl')
 planet_images = {
-    'Gas Giant': '/exoplanets_img/gasgiant-7.jpg',
-    'Super Earth': '/exoplanets_img/neptunelike-8.jpg',
-    'Neptune-like': '/exoplanets_img/superearth-7.jpg',
-    'Terrestrial': '/exoplanets_img/terrestrial-4.jpg'
+    'Gas Giant': 'exoplanets_img/gasgiant-7.jpg',
+    'Super Earth': 'exoplanets_img/neptunelike-8.jpg',
+    'Neptune-like': 'exoplanets_img/superearth-7.jpg',
+    'Terrestrial': 'exoplanets_img/terrestrial-4.jpg'
 }
 
 # feature names used in the model
