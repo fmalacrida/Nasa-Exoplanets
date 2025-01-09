@@ -14,7 +14,7 @@ Classification models (Random Forest, Gradient Boosting, XGBoost) to predict exo
 Interactive web application for predicting exoplanet types based on user-provided inputs.
 Visualizations to enhance understanding of detection methods.
 
-## Dataset\cf3 
+## Dataset
 The dataset includes information on exoplanets, such as:
 Planetary mass and radius.
 Orbital characteristics.
@@ -23,5 +23,5 @@ Detection methods and discovery year.
 
 Installation
 To set up the project environment, clone this repository and install the required dependencies using the `requirements.txt` file:\
-```bash\
+```bash
 pip install -r requirements.txt}
