@@ -62,6 +62,6 @@ if st.button("Predict"):
         
         # show the result
         st.success(f"The predicted planet type is: **{predicted_class}**")
-        st.image(Image.open(planet_images[predicted_class]), caption=predicted_class, use_column_width=True)
+        st.image(Image.open(planet_images[predicted_class]), caption=predicted_class, use_container_width=True)
     except ValueError as e:
         st.error(f"Prediction failed: {e}")
